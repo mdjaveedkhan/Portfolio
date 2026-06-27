@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software engineering, backend, AI, and cybersecurity projects by Md Javeed Khan.">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#101820" media="(prefers-color-scheme: dark)">
+    <title>Projects | Md Javeed Khan</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" type="image/png" href="static/images/project.png">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">MJ</span>
+            <span><strong>Md Javeed Khan</strong><small>Software Engineer</small></span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="projects.html" aria-current="page">Projects</a>
+            <a href="myblogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+            <span aria-hidden="true">◐</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="page-hero section">
+            <p class="eyebrow">Selected Projects</p>
+            <h1>Backend systems, AI platforms, and practical tools.</h1>
+            <p>These projects emphasize clean APIs, modular services, testing, deployment, and applied machine learning.</p>
+        </section>
+
+        <section class="section project-detail" id="heuriguard">
+            <div class="detail-media">
+                <img src="static/images/HeuriGuard-laptop-Preview.jpeg" alt="HeuriGuard web app preview on laptop">
+            </div>
+            <div class="detail-copy">
+                <p class="eyebrow">2025 - 2026</p>
+                <h2>HeuriGuard - AI Cybersecurity Platform</h2>
+                <p>HeuriGuard is a multi-module threat detection platform for malicious URLs, phishing links, and SMS spam classification. I led backend development, implemented modular REST APIs, engineered feature pipelines, optimized processing for latency and reliability, and maintained deployment scripts for Docker-based releases.</p>
+                <div class="tag-list">
+                    <span>Python</span><span>Flask</span><span>ML</span><span>NLP</span><span>Android</span><span>Render</span><span>Docker</span>
+                </div>
+                <ul class="check-list">
+                    <li>Hybrid rule-based and machine learning detection for URL and SMS safety.</li>
+                    <li>Feature extraction for URL structure, domain characteristics, and text signals.</li>
+                    <li>Production deployment with a custom domain and real-time predictions.</li>
+                </ul>
+                <div class="button-row">
+                    <a class="btn btn-primary" href="https://heuriguard.mdjaveedkhan.me" target="_blank" rel="noopener">Live Demo</a>
+                    <a class="btn btn-secondary" href="https://github.com/mdjaveedkhan/HeuriGuard" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section project-detail reverse" id="rag-assistant">
+            <div class="detail-media">
+                <img src="static/images/architecture.png" alt="RAG assistant architecture diagram">
+            </div>
+            <div class="detail-copy">
+                <p class="eyebrow">2026</p>
+                <h2>RAG-Based Customer Support Assistant</h2>
+                <p>A retrieval-augmented assistant focused on reliable document ingestion, retrieval, routing, fallback handling, and graceful degradation for edge cases. The project strengthened my work with agentic AI workflows and maintainable AI application architecture.</p>
+                <div class="tag-list">
+                    <span>Python</span><span>LangGraph</span><span>Google Gemini</span><span>ChromaDB</span><span>RAG</span>
+                </div>
+                <ul class="check-list">
+                    <li>Modular document ingestion and retrieval pipeline.</li>
+                    <li>Routing and fallback mechanisms for uncertain queries.</li>
+                    <li>Maintainable design for production-style customer support flows.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section project-detail" id="food-delivery">
+            <div class="detail-media">
+                <img src="static/images/Swagger_UI.png" alt="Swagger UI for FastAPI food delivery backend">
+            </div>
+            <div class="detail-copy">
+                <p class="eyebrow">Backend API</p>
+                <h2>FastAPI Food Delivery Backend</h2>
+                <p>A real-world backend application that manages menu operations, customer orders, cart workflows, and checkout processing. It simulates common food delivery platform features while keeping the API clean, validated, and easy to test.</p>
+                <div class="tag-list">
+                    <span>Python</span><span>FastAPI</span><span>Pydantic</span><span>Uvicorn</span><span>REST APIs</span><span>Swagger</span>
+                </div>
+                <ul class="check-list">
+                    <li>Menu CRUD, cart updates, checkout workflow, and order processing.</li>
+                    <li>Case-insensitive search, sorting, pagination, and combined browse endpoint.</li>
+                    <li>Pydantic validation and Swagger UI API testing.</li>
+                </ul>
+                <div class="button-row">
+                    <a class="btn btn-primary" href="https://github.com/mdjaveedkhan/fastapi-food-delivery-app" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn btn-secondary" href="https://www.linkedin.com/posts/mdjaveedkhan_fastapi-python-backenddevelopment-ugcPost-7440405019813830656-ISxU" target="_blank" rel="noopener">LinkedIn Post</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section project-detail reverse" id="malicious-url">
+            <div class="detail-media">
+                <img src="static/images/project1.png" alt="Malicious URL detection system screenshot">
+            </div>
+            <div class="detail-copy">
+                <p class="eyebrow">Machine Learning</p>
+                <h2>Malicious URL Detection Web Application</h2>
+                <p>A deployed web application that detects malicious URLs with 95%+ accuracy using machine learning classifiers and a feature extraction pipeline for URL patterns, domain characteristics, and behavioral indicators.</p>
+                <div class="tag-list">
+                    <span>Python</span><span>Flask</span><span>Scikit-learn</span><span>REST API</span><span>Render</span>
+                </div>
+                <ul class="check-list">
+                    <li>Real-time URL safety verification through a web interface.</li>
+                    <li>Detailed classification reports for safer browsing decisions.</li>
+                    <li>Cloud deployment for public access and practical use.</li>
+                </ul>
+                <div class="button-row">
+                    <a class="btn btn-primary" href="https://github.com/mdjaveedkhan/Malicious-Url-Detection" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn btn-secondary" href="https://www.linkedin.com/posts/mdjaveedkhan_machinelearning-cybersecurity-opensource-activity-7411663578702721024-X2fD" target="_blank" rel="noopener">LinkedIn Post</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section project-detail" id="text-to-image">
+            <div class="detail-media">
+                <img src="static/images/project2.jpg" alt="Text-to-image generation project preview">
+            </div>
+            <div class="detail-copy">
+                <p class="eyebrow">IGNITE HACK 2024</p>
+                <h2>Text-to-Image Generation Using Stable Diffusion</h2>
+                <p>A generative AI web application that converts text prompts into high-quality images. The generation pipeline was optimized with efficient preprocessing and caching, reducing latency by 40%.</p>
+                <div class="tag-list">
+                    <span>Python</span><span>Stable Diffusion</span><span>Generative AI</span><span>TensorFlow</span><span>Google Colab</span>
+                </div>
+                <ul class="check-list">
+                    <li>Secured 3rd place at IGNITE HACK 2024 among 50+ teams.</li>
+                    <li>Focused on prompt-to-image quality and generation speed.</li>
+                    <li>Showcased applied deep learning in a creative workflow.</li>
+                </ul>
+                <div class="button-row">
+                    <a class="btn btn-primary" href="https://github.com/mdjaveedkhan/Text-to-Image-Generation-Model" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn btn-secondary" href="https://www.linkedin.com/posts/mdjaveedkhan_winner-hackathonsuccess-generativeai-activity-7263237549752492032-LUuG" target="_blank" rel="noopener">LinkedIn Post</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section compact-projects">
+            <div class="section-heading">
+                <p class="eyebrow">More Projects</p>
+                <h2>Additional engineering practice.</h2>
+            </div>
+            <div class="skills-grid">
+                <article>
+                    <h3>Image Classification Using Deep Learning</h3>
+                    <p>CNN project with data augmentation, transfer learning, model training, evaluation, and hyperparameter tuning.</p>
+                </article>
+                <article>
+                    <h3>Online Mock Test Application</h3>
+                    <p>Java Swing application with automated grading, real-time analytics, timer functionality, and a question database.</p>
+                </article>
+                <article>
+                    <h3>YouTube Video Downloader</h3>
+                    <p>Python Tkinter desktop application supporting multi-quality downloads with progress tracking and error handling.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>&copy; <span id="current-year"></span> Md Javeed Khan.</span>
+        <a href="static/files/Md_Javeed_khan_Resume_SE.pdf" target="_blank" rel="noopener">Resume</a>
+    </footer>
+
+    <script>
+        const root = document.documentElement;
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme) root.dataset.theme = savedTheme;
+        document.querySelector(".theme-toggle").addEventListener("click", () => {
+            const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            const activeTheme = root.dataset.theme || (systemDark ? "dark" : "light");
+            const nextTheme = activeTheme === "dark" ? "light" : "dark";
+            root.dataset.theme = nextTheme;
+            localStorage.setItem("theme", nextTheme);
+        });
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
